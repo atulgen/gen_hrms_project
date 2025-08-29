@@ -1,0 +1,14 @@
+```bash
+frappe@srv938744:~/genhrms-bench$ bench setup production frappe
+WARN: superuser privileges required for this command
+frappe@srv938744:~/genhrms-bench$ sudo bench setup production frappe
+sudo: bench: command not found
+frappe@srv938744:~/genhrms-bench$ 
+
+```
+
+## Solution:
+
+```bash
+sudo /home/frappe/.local/bin/bench setup production frappe
+```
