@@ -217,4 +217,10 @@ site administration:
 
 
 
+### Turning on the server scripts 
+
+
+- bench set-config -g server_script_enabled 1
+
+
 
