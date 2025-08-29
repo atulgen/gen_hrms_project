@@ -33,7 +33,10 @@ sudo apt install git python-is-python3 python3-dev python3-pip redis-server libm
 ## 3. Site creation
 
 - genhrms.local
-
+-Adding sites to host in Windows
+    1.Open notepad as administrator
+    2. open this location in notepad - C:\Windows\System32\drivers\etc\hosts
+    3. add -127.0.0.1 	genhrms.local
 ## 4 App installation:
 
 
