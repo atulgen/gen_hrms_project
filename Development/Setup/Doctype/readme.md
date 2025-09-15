@@ -1,7 +1,7 @@
 ## Exporting the doctype
 
 ```bash
-bench --site eits.local export-doc "DocType" "Intern Application"
+bench --site genhrms.local export-doc "DocType" "Intern Application"
 ```
 
 ```bash
@@ -9,7 +9,7 @@ bench --site genhrms.local export-doc "Web Form" "intern-application"
 ```
 
 ```bash
-bench --site eits.local export-doc "DocType" "Intern Offer"
+bench --site genhrms.local export-doc "DocType" "Intern Offer"
 ```
 
 

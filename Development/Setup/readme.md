@@ -28,7 +28,7 @@ sudo apt install git python-is-python3 python3-dev python3-pip redis-server libm
 
 ## 2. Bench initialization:
 
-- bench init genhrms-bench --frappe-branch version-15
+- bench init genhrms-bench-16 
 
 ## 3. Site creation
 
@@ -42,10 +42,10 @@ sudo apt install git python-is-python3 python3-dev python3-pip redis-server libm
 
 ### ERPNext and HRMS:
 
-- bench get-app erpnext --branch version-15
+- bench get-app erpnext 
 
 
-- bench get-app hrms --branch version-15
+- bench get-app hrms 
 
 
 - Installing at site: 
