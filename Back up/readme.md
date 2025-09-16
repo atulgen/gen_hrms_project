@@ -7,6 +7,9 @@ bench --site hrms.gennextit.com backup --with-files --backup-path ./Backup
 
 
 
+```bash
+bench --site hrms.gennextit.com restore   ~/genhrms-bench-backup/backup-15-monday/20250915_165007-hrms_gennextit_com-database.sql.gz   --with-private-files ~/genhrms-bench-backup/backup-15-monday/20250915_165007-hrms_gennextit_com-private-files.tar   --with-public-files ~/genhrms-bench-backup/backup-15-monday/20250915_165007-hrms_gennextit_com-files.tar
+```
 
 ---
 
@@ -24,7 +27,7 @@ bench --site hrms.gennextit.com set-maintenance-mode off
 
 
 
-```
+```bash
 bench --site hrms.gennextit.com restore   ~/genhrms-bench-backup/backup-15-monday/20250915_165007-hrms_gennextit_com-database.sql.gz   --with-private-files ~/genhrms-bench-backup/backup-15-monday/20250915_165007-hrms_gennextit_com-private-files.tar   --with-public-files ~/genhrms-bench-backup/backup-15-monday/20250915_165007-hrms_gennextit_com-files.tar
 ```
 

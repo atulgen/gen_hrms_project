@@ -173,8 +173,7 @@ server {
 - Link to site enabled
 
 ```bash
-sudo ln -s /etc/nginx/sites-available/hrms.gennextit.com /etc/nginx/sites-enabled/```
-
+sudo ln -s /etc/nginx/sites-available/hrms.gennextit.com /etc/nginx/sites-enabled/
 ```
 
 ```
@@ -221,6 +220,19 @@ site administration:
 
 
 - bench set-config -g server_script_enabled 1
+
+
+---
+
+
+Stopping the process:
+
+```bash
+sudo supervisorctl stop genhrms-bench-16-redis:*
+sudo supervisorctl stop genhrms-bench-16-web:*
+sudo supervisorctl stop genhrms-bench-16-workers:*
+```
+
 
 
 
